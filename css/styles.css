@@ -725,13 +725,7 @@ margin-right: 8px;
 .footer-icon {
     fill: #f4f4fd;
 }
-.footer-form {
-   display: flex;
-}
-.footer-subscribe-container {
-    display: block;
-    align-items: center;
-    margin-right: 24px;
+.footer-form-container {  
 }
 .footer-subscribe-text {
     margin-bottom: 16px;
@@ -742,27 +736,31 @@ margin-right: 8px;
     color: #fff;
 }
 .footer-order-form {
-   
-}
+    display: flex;
+    align-items: center;
+    gap: 24px;
+ }
 .footer-form-label {
-
 }
 .footer-form-input {
+    display: block;
+    align-items: center;
     padding-left: 16px;
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    background: #2e2f42;
+    background-color: transparent;
     display: inline;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-.footer-form-input::placeholder {
-    font-weight: 400;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
+    font-weight: 400;
+}
+.footer-form-input::placeholder {
+    color: #fff;    
 }
 .footer-button {
     display: flex;
@@ -772,9 +770,10 @@ margin-right: 8px;
     gap: 16px;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -782,8 +781,10 @@ margin-right: 8px;
     text-align: center;
     color: #fff;
     border: none;
+    cursor: pointer;
 }
 .footer-button-icon {
     fill: #fff;
+    margin-left: 16px; 
 }
 /*___________________________________________*/
