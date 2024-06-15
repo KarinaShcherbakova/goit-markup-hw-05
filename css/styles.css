@@ -111,8 +111,8 @@ button {
     background-color: #404bbf;
     border: none;
 }
-.modal-button-icon:hover,
-.modal-button-icon:focus{
+.modal-button:hover > .modal-button-icon,
+.modal-button:focus > .modal-button-icon {
     fill: #ffffff;
 } 
 .modal-title {
