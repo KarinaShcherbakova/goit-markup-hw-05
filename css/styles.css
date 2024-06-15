@@ -133,19 +133,18 @@ button {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 8px;
     border-radius: 4px;
     width: 360px;
     height: 336px;
 }
 .modal-form-container {
+    height: 58px;
     margin-bottom: 8px;
 }
 .modal-form-label {
     display: block;
     margin-bottom: 4px;
     max-width: 360px;
-    height: 58px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -181,13 +180,13 @@ button {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-textarea-container {
+    height: 138px;
     margin-bottom: 16px;
 }
 .modal-label-textarea {
     display: block;
     margin-bottom: 4px;
     max-width: 360px;
-    height: 138px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -222,13 +221,12 @@ button {
     margin-bottom: 24px;
 }
 .modal-privacy-input {
-
 }
 .modal-label-privacy {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8e8f99;  
+    color: #8e8f99; 
 }
 .modal-privacy-part {
     width: 16px;
@@ -243,21 +241,20 @@ button {
     line-height: 1.33333;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    color: #4d5ae5;   
+    color: #4d5ae5; 
+    margin-right: 8px;
 }
-.modal-privacy-input:checked + .modal-label-privacy>.modal-privacy-part {
+.modal-privacy-input:checked + .modal-label-privacy
+> .modal-privacy-part {
     background-color: #404bbf;
     border: none; 
     fill: #F4F4FD;
 }
 .modal-privacy-icon {
     fill: #f4f4fd;
-    border-radius: 2px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .modal-privacy-link {
     color: #4d5ae5; 
-
 }
 .modal-submit-button {
     font-family: "Roboto", sans-serif;
