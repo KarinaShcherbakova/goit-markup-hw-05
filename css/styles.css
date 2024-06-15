@@ -111,6 +111,10 @@ button {
     background: #404bbf;
     border: none;
 }
+.modal-button-icon:hover,
+.modal-button-icon:focus{
+    fill: #ffffff;
+} 
 .modal-title {
     font-weight: 500;
     font-size: 16px;
